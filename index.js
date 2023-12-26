@@ -7,6 +7,8 @@ const db = require('./config/mongoose');
 const User = require('./models/register');
 const Login = require('./models/login');
 const Dashboard = require('./models/dashboard');
+const Register = require('./models/register');
+
 
 const app = express();
 
